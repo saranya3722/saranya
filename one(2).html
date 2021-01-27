@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>first</title>
+</head>
+<body>
+
+<script type="text/JavaScript">
+function sum()
+{
+var a,b,c
+
+a=document.getElementById("n1").value;
+
+b=document.getElementById("n2").value;
+
+c=Number(a)+Number(b);
+
+document.getElementById("n3"). value=c;
+
+}
+
+</script>
+<H1 style="color:red"><u>Assignment 4</u></H1>
+<form method="post">
+<h3 style= "color:blue">enter first number</h3><input id="n1" type="number" height="1" width="1" />
+<h3 style= "color:blue">enter second number</h3><input  id="n2"type="number" height="1" width="1" /></br></br>
+<button  onclick="sum()">ADD</button> <input type="number" id="n3"/>
+</form>
+</body>
+</html>
